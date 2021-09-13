@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background: #f8ece8;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  text-decoration: none;
+  color: #ed921d;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10%;
+}
+
+.nav-links {
+  text-align: right;
+  background: #c62c71;
+  padding: 10px 30px;
+  border-bottom-left-radius: 18px;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.nav-links ul li a {
+  color: #ed921d;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links :hover {
+  color: white;
+}
+.left-sidebar {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #c62c71;
+}
+.row {
+  padding: 0 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5%;
+}
+.left-col {
+  flex-basis: 40%;
+}
+.right-col {
+  flex-basis: 55%;
+}
+
+.left-col img {
+  width: 90%;
+  cursor: pointer;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  border-radius: 10px;
+  filter: grayscale(0);
+  transition: filter 1s;
+}
+.left-col img:hover {
+  filter: grayscale(1);
+}
+.right-col h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: #ed921d;
+}
+.right-col p {
+  color: black;
+  margin: 20px 0 70px;
+  font-weight: 400;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shape {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  color: #c62c71;
+  width: 100px;
+}
+h2 a {
+  color: #c62c71;
+}
+
+h2 i {
+  font-weight: 300px;
+}
+.btn {
+  padding: 2px;
+  width: 20%;
+  border-radius: 5px;
+  background: none;
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: #c62c71;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.btn a:hover {
+  color: #ed921d;
+}
