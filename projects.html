@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="projects.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#" class="logo">Alison</a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">My Work</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="left-sidebar">
+            <h1>Project Gallery</h1>
+            
+        </div>
+        <main class="container">
+            <section class="card">
+                <img src="img/code.svg" alt="book">
+                <div>
+                    <h3>Welcome!</h3>
+                    <p> I learned web development in June 2020 through
+                        attending a online workshop called SheCodes. SheCodes workshop
+                        has taught me the fundamentals of HTML, CSS, JavaScript and 
+                        React. Please scroll down to see my projects. These projects 
+                        include my work from SheCodes and projects I taught myself after
+                        receiving my certificates. Enjoy.
+                    </p>
+                
+                </div>
+            </section>
+            <section class="card"  data-aos="fade-right">
+                <img src="img/meditate.svg" alt="meditate">
+                <div>
+                    <h3>Meditation App</h3>
+                    <p>Breathe. The Meditation App allows you to meditate with the sound of water. You can watch a video of rain or a stream. It has
+                       a custom time setting to relax.
+                      Built  with HTML, CSS and Vanilla JavaScript.
+                    </p>
+                    <button class="btn"> <a href="https://cocky-elion-cc60bf.netlify.app/" target="_blank">Launch</a></button>
+                   
+                </div>
+            </section>
+            <section class="card" data-aos="fade-left">
+                <img src="img/task.svg" alt="task">
+                <div>
+                    <h3>Task App</h3>
+                    <p> The task app lets you jot down tasks you have to do.
+                       You can write as many tasks as you want. You can check off and delete 
+                       tasks. You can organize your tasks by all, completed, and uncompleted. Built with HTML, CSS,
+                       and Vanilla JavaScript. 
+                    </p>
+                    <button class="btn"> <a href="https://wizardly-ride-a5120f.netlify.app/" target="_blank">Launch</a></button>
+                </div>
+            </section>
+            <section class="card" data-aos="fade-right">
+                <img src="img/weather.svg" alt="weather">
+                <div>
+                    <h3>Weather React App</h3>
+                    <p> A weather app I created in SheCodes workshop. Let's see a forecast from any location. Built with HTML, CSS, Vanilla JavaScript and React.
+
+                    </p>
+                <button class="btn"> <a href="https://optimistic-hodgkin-732048.netlify.app" target="_blank">Launch</a></button>
+                </div>
+            </section>
+            <section class="card" data-aos="fade-left">
+                <img src="img/girl.svg">
+                <div>
+                    <h3>Weather App</h3>
+                    <p>My first weather app I created in SheCodes workshop. Built with HTML, CSS, Bootstrap,
+                        Vanilla JavaScript, and an active API.
+                    </p>
+                <button class="btn"> <a href="https://serene-goldberg-ffcae5.netlify.app/" target="_blank">Launch</a></button>
+                </div>
+            </section>
+        </main>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="project.js"></script>
+        <script>
+            AOS.init({
+                offset: 400,
+                duration: 1000
+            });
+        </script>
+        
+</body>
+</html>
